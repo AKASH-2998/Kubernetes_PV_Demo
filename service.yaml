@@ -4,7 +4,7 @@ metadata:
   name: story-service
 spec:
   selector: 
-    app: story
+    app: host
   type: LoadBalancer
   ports:
     - protocol: "TCP"

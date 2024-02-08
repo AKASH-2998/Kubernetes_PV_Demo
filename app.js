@@ -32,7 +32,7 @@ app.post('/story', (req, res) => {
   });
 });
 
-app.get('/error', () => {
+app.get('/crash', () => {
   process.exit(1);
 });
 
