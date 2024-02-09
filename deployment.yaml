@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
         - name: host-container
-          image: akash290698/kub-data-vol:v1.2
+          image: akash290698/kub-data-vol:v1.4
+          env:
+            - name: STORY_FOLDER
+              value: 'story'
           volumeMounts:
             - mountPath: /app/story
               name: host-volume
